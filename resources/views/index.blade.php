@@ -45,16 +45,18 @@
                 </div>
             </div>
 
-            <div class="flex px-2 py-6">
-                <a href="#" class="flex-none">
-                    <img src="https://source.unsplash.com/200x200/?face&crop=face&v=1" alt="avatar" class="w-14 h-14 rounded-xl">
-                </a>
-                <div class="mx-4">
+            <div class="flex flex-1 px-2 py-6">
+                <div class="flex-none">                    
+                    <a href="#">
+                        <img src="https://source.unsplash.com/200x200/?face&crop=face&v=1" alt="avatar" class="w-14 h-14 rounded-xl">
+                    </a>
+                 </div>
+                <div class="mx-4 w-full">
                     <h4 class="text-xl font-semibold">
                         <a href="#" class="hover:underline">A random title can go here</a>
                     </h4>
                     <div class="text-gray-600 mt-3 line-clamp-3">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus rerum eos autem quaerat est nobis quas nisi! Molestiae, eos velit. Fugit porro excepturi amet inventore quia vero omnis? Reprehenderit enim aliquid inventore unde cupiditate, ipsa, dolor harum reiciendis optio, a beatae esse! Sed animi in architecto adipisci sequi et. Debitis quisquam dolorum ut. Inventore architecto est eius optio magni beatae repellat aspernatur possimus, hic ipsam debitis animi fuga labore suscipit a temporibus cum magnam quibusdam culpa in. Quas perferendis sunt asperiores odit, maiores aspernatur hic ullam libero. A amet consequatur nesciunt quod, maxime aliquam odio at! Minus, qui perspiciatis? Officiis!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, impedit.
                     </div>
 
                     <div class="flex items-center justify-between mt-6">
@@ -70,7 +72,7 @@
                             <div class="bg-gray-200 text-xxs font-bold uppercase leading-none rounded-full text-center w-28 h-7 py-2 px-4">
                                 Open
                             </div>
-                            <button class="relative bg-gray-100 hover:bg-gray-200 transition duration-150 ease-in rounded-full h-7 py-2 px-3">
+                            <button class="relative bg-gray-100 hover:bg-gray-200 border transition duration-150 ease-in rounded-full h-7 py-2 px-3">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
                                     <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
                                 </svg>
@@ -101,11 +103,11 @@
                 </div>
             </div>
 
-            <div class="flex px-2 py-6">
+            <div class="flex flex-1 px-2 py-6">
                 <a href="#" class="flex-none">
                     <img src="https://source.unsplash.com/200x200/?face&crop=face&v=1" alt="avatar" class="w-14 h-14 rounded-xl">
                 </a>
-                <div class="mx-4">
+                <div class="w-full mx-4">
                     <h4 class="text-xl font-semibold">
                         <a href="#" class="hover:underline">A random title can go here</a>
                     </h4>
@@ -157,11 +159,11 @@
                 </div>
             </div>
 
-            <div class="flex px-2 py-6">
+            <div class="flex flex-1  px-2 py-6">
                 <a href="#" class="flex-none">
                     <img src="https://source.unsplash.com/200x200/?face&crop=face&v=1" alt="avatar" class="w-14 h-14 rounded-xl">
                 </a>
-                <div class="mx-4">
+                <div class="w-full mx-4">
                     <h4 class="text-xl font-semibold">
                         <a href="#" class="hover:underline">A random title can go here</a>
                     </h4>
@@ -213,11 +215,11 @@
                 </div>
             </div>
 
-            <div class="flex px-2 py-6">
+            <div class="flex flex-1 px-2 py-6">
                 <a href="#" class="flex-none">
                     <img src="https://source.unsplash.com/200x200/?face&crop=face&v=1" alt="avatar" class="w-14 h-14 rounded-xl">
                 </a>
-                <div class="mx-4">
+                <div class="w-full mx-4">
                     <h4 class="text-xl font-semibold">
                         <a href="#" class="hover:underline">A random title can go here</a>
                     </h4>
@@ -270,11 +272,11 @@
                 </div>
             </div>
 
-            <div class="flex px-2 py-6">
+            <div class="flex flex-1 px-2 py-6">
                 <a href="#" class="flex-none">
                     <img src="https://source.unsplash.com/200x200/?face&crop=face&v=1" alt="avatar" class="w-14 h-14 rounded-xl">
                 </a>
-                <div class="mx-4">
+                <div class="mx-4 w-full">
                     <h4 class="text-xl font-semibold">
                         <a href="#" class="hover:underline">A random title can go here</a>
                     </h4>
