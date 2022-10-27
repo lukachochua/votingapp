@@ -11,6 +11,8 @@
 
         <!-- Scripts -->
         <script src="{{ asset('js/app.js')}} defer"></script>
+        <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
 
         <link href="{{ asset('css/app.css') }}" rel="stylesheet" href="https://fonts.bunny.net/css2?family=Open+Sans:wght@400;600;700&display=swap">
 
