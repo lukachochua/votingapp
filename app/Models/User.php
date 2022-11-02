@@ -23,6 +23,7 @@ class User extends Authenticatable
         'password',
     ];
 
+    
     /**
      * The attributes that should be hidden for serialization.
      *
@@ -45,5 +46,21 @@ class User extends Authenticatable
     public function ideas()
     {
         return $this->hasMany(Idea::class);
+    }
+
+    public function getAvatar()
+    {
+        $firstCharecter = $this->email[0];
+
+        $integerToUse = is_numeric($firstCharecter)
+        ? ord(strtolower($firstCharecter)) - 21
+        : ord(strtolower($firstCharecter)) - 96;
+
+        return "https://www.gravatar.com/avatar/"
+        .md5($this->email)
+        .'?s=200'
+        .'&d=https://s3.amazonaws.com/laracasts/images/forum/avatars/default-avatar-'
+        .$integerToUse
+        .'.png';
     }
 }
