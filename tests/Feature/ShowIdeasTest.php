@@ -104,16 +104,14 @@ class ShowIdeasTest extends TestCase
 
         $response = $this->get('/');
 
+        $response->assertSee($ideaEleven->title);
+        $response->assertDontSee($ideaOne->title);
 
-        $response->assertSee($ideaOne->title);
-
-        $response->assertDontSee($ideaEleven->title);
 
         $response = $this->get('/?page=2');
 
-        $response->assertDontSee($ideaOne->title);
-
-        $response->assertSee($ideaEleven->title);
+        $response->assertSee($ideaOne->title);
+        $response->assertDontSee($ideaEleven->title);
     }
 
     /** @test */
@@ -150,8 +148,5 @@ class ShowIdeasTest extends TestCase
         $this->assertTrue(request()->path() === 'ideas/my-first-idea-2');
 
     }
-
-
-
     
 }
