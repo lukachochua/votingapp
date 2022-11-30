@@ -765,6 +765,15 @@ select {
 .-mr-2 {
   margin-right: -0.5rem;
 }
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+.mb-0 {
+  margin-bottom: 0px;
+}
+.ml-auto {
+  margin-left: auto;
+}
 .block {
   display: block;
 }
@@ -1216,6 +1225,9 @@ select {
 }
 .pb-1 {
   padding-bottom: 0.25rem;
+}
+.pt-0 {
+  padding-top: 0px;
 }
 .text-left {
   text-align: left;
@@ -1678,11 +1690,11 @@ select {
   --tw-text-opacity: 1;
   color: rgb(64 64 64 / var(--tw-text-opacity));
 }
-.disabled\:opacity-25:disabled {
-  opacity: 0.25;
-}
 .disabled\:opacity-50:disabled {
   opacity: 0.5;
+}
+.disabled\:opacity-25:disabled {
+  opacity: 0.25;
 }
 @media (prefers-color-scheme: dark) {
 
