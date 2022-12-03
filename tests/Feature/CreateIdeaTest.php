@@ -49,7 +49,7 @@ class CreateIdeaTest extends TestCase
 
     /** @test */
 
-    public function create_idea_form_works()
+    public function create_idea_form_validation_works()
     {
         Livewire::actingAs(User::factory()->create())
             ->test(CreateIdea::class)
