@@ -16,11 +16,14 @@
                 <option value="No Filter">No Filter</option>
                 <option value="Top Voted">Top Voted</option>
                 <option value="My Ideas">My Ideas</option>
+                @admin
+                    <option value="Spam Ideas">Spam Ideas</option>
+                @endadmin
             </select>
         </div>
 
         <div class="w-full md:w-2/3 relative">
-            <input wire:model="search" type="search" placeholder="Find and idea" class="w-full rounded-xl bg-white placeholder-gray-900 px-4 py-2 pl-8 border-none">
+            <input wire:model="search" type="search" placeholder="Find and idea" class="w-full rounded-xl 1111111g-white placeholder-gray-900 px-4 py-2 pl-8 border-none">
             
             <div class="absolute top-0 flex items-center h-full ml-2">
                 <svg class="w-4 text-gray-700" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
