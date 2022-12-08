@@ -24,11 +24,12 @@
         />
     @endcan
 
-    {{-- @can('spam', $idea) --}}
+    @auth
         <livewire:mark-idea-as-spam 
             :idea="$idea"
         />
-    {{-- @endcan --}}
+    @endauth
+    
     @admin
         <livewire:mark-idea-as-not-spam
             :idea="$idea"

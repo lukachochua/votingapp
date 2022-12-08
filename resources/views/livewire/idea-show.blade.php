@@ -81,7 +81,7 @@
                                             </a>
                                         </li>
                                     @endcan
-
+                                    
                                         <li>
                                             <a 
                                                 href="#" 
@@ -94,7 +94,7 @@
                                                 Mark as Spam
                                             </a>
                                         </li>
-                                    @admin
+                                    @admin   
                                         <li>
                                             <a 
                                                 href="#" 
