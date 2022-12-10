@@ -56,7 +56,7 @@
         </button>
     </div>
 
-    <div>
+    {{-- <div>
         @if (session('success_message'))
             <div 
                 x-data="{ isVisible: true }"
@@ -70,5 +70,5 @@
                 {{ session('success_message')}}
             </div> 
         @endif
-    </div>
+    </div> --}}
 </form>

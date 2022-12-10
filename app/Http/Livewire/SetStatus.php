@@ -32,7 +32,7 @@ class SetStatus extends Component
             NotifyAllVoters::dispatch($this->idea);
         }
 
-        $this->emit('statusWasUpdated');
+        $this->emit('statusWasUpdated', 'Idea Status was changed successfully!');
     }
 
     public function render()
