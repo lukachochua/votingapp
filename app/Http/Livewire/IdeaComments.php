@@ -29,7 +29,7 @@ class IdeaComments extends Component
     public function render()
     {
         return view('livewire.idea-comments', [
-            'comments' => Comment::where('idea_id', $this->idea->id)->paginate()->withQueryString(),
+            'comments' => Comment::with('user')->where('idea_id', $this->idea->id)->paginate()->withQueryString(),
         ]);
     }
 }
