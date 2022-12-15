@@ -47,6 +47,10 @@
             Livewire.on('commentWasAdded', message => {
                 showNotification(message)
             })
+
+            Livewire.on('commentWasUpdated', message => {
+                showNotification(message)
+            })
         @endif
     "
     class="flex justify-between max-w-xs sm:max-w-sm w-full fixed bottom-0 right-0 
