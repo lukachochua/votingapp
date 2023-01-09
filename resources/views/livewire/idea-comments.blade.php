@@ -9,8 +9,9 @@
                     :ideaUserId="$idea->user->id"
                 />
             @endforeach
-
         </div>
+
+    
         <div class="my-8 ml-22">
             {{ $comments->onEachSide(1)->links() }}
         </div>

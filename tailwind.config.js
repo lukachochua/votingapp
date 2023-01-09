@@ -19,14 +19,14 @@ module.exports = {
                 white: colors.white,
                 slate: colors.slate,
                 gray: colors.neutral,
-                'blue': '#328af1',
                 'blue-hover': '#2879bd',
                 'yellow': '#ffc73c',
                 'red': '#ec454f',
                 'red-100': '#fee2e2',
                 'green': '#1aab8b',
                 'green-50': '#f0fdf4',
-                'purple': '#8b60ed'
+                'purple': '#8b60ed',
+                'blue': '#328af1'
             },
             maxWidth: {
                 custom: '68.5rem'
