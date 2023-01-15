@@ -1,4 +1,5 @@
 @props([
+    'type' => 'success',
     'redirect' => false,
     'messageToDisplay' => '',
 ]) 
@@ -69,9 +70,16 @@
     bg-white rounded-xl shadow-lg border px-4 py-5 mx-2 sm:mx-6 my-8 z-10"
 >
     <div class="flex items-center">
-        <svg class="text-green h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-        </svg>
+        @if($type==="success")
+            <svg class="text-green h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+        @endif
+        @if($type==="error")
+            <svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="text-red w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9.75 9.75l4.5 4.5m0-4.5l-4.5 4.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>          
+        @endif
         
         <span class='font-semibold sm:text-base text-gray-500 text-small ml-2' x-text="messageToDisplay"></span>
     </div>
