@@ -2,6 +2,7 @@
 
 namespace App\Http\Livewire;
 
+use App\Http\Livewire\Traits\WithAuthRedirects;
 use App\Models\Comment;
 use App\Models\Idea;
 use App\Notifications\CommentAdded;
@@ -10,6 +11,7 @@ use Livewire\Component;
 
 class AddComment extends Component
 {
+    use WithAuthRedirects;
 
     public $idea;
     public $comment;
@@ -25,8 +27,8 @@ class AddComment extends Component
 
     public function addComment()
     {
-        if (auth()->guest()) {
-            abort(Response::HTTP_FORBIDDEN);
+        if(auth()->guest()) {
+            return $this->redirectToLogin();
         }
 
         $this->validate();

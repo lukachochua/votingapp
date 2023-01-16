@@ -2,6 +2,7 @@
 
 namespace App\Http\Livewire;
 
+use App\Http\Livewire\Traits\WithAuthRedirects;
 use App\Models\Category;
 use App\Models\Idea;
 use App\Models\Vote;
@@ -10,6 +11,8 @@ use Livewire\Component;
 
 class CreateIdea extends Component
 {
+    use WithAuthRedirects;
+
     public $title;
     public $category = 1;
     public $description;
@@ -23,8 +26,8 @@ class CreateIdea extends Component
 
     public function createIdea()
     {
-        if (auth()->guest()){
-            abort(Response::HTTP_FORBIDDEN);
+        if(auth()->guest()) {
+            return $this->redirectToLogin();
         }
 
         $this->validate();
