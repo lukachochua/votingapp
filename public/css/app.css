@@ -839,14 +839,14 @@ select {
 .h-16 {
   height: 4rem;
 }
+.h-4 {
+  height: 1rem;
+}
 .h-20 {
   height: 5rem;
 }
 .h-full {
   height: 100%;
-}
-.h-4 {
-  height: 1rem;
 }
 .h-12 {
   height: 3rem;
@@ -893,6 +893,9 @@ select {
 .w-10 {
   width: 2.5rem;
 }
+.w-44 {
+  width: 11rem;
+}
 .w-70 {
   width: 17.5rem;
 }
@@ -908,14 +911,8 @@ select {
 .w-12 {
   width: 3rem;
 }
-.w-44 {
-  width: 11rem;
-}
 .w-48 {
   width: 12rem;
-}
-.w-40 {
-  width: 10rem;
 }
 .max-w-xl {
   max-width: 36rem;
@@ -1034,6 +1031,11 @@ select {
   margin-right: calc(0.5rem * var(--tw-space-x-reverse));
   margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
+.space-y-2 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
+}
 .space-y-6 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
@@ -1048,11 +1050,6 @@ select {
   --tw-space-y-reverse: 0;
   margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(0.25rem * var(--tw-space-y-reverse));
-}
-.space-y-2 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
 }
 .space-x-10 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
