@@ -20,7 +20,7 @@ class CreateIdeaTest extends TestCase
     public function create_idea_form_does_not_show_when_logged_out()
     {
         $response = $this->get(route('idea.index'));
-        $response->assertSee('Please log in to create an idea.');
+        $response->assertSee('Please login to create an idea.');
         $response->assertDontSee('Let us know what you would like and we\'ll take a look over!');
 
     }
