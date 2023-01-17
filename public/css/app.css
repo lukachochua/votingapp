@@ -711,6 +711,10 @@ select {
 .z-50 {
   z-index: 50;
 }
+.my-6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
 .mx-2 {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
@@ -727,15 +731,14 @@ select {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
-.my-6 {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-}
 .mt-1 {
   margin-top: 0.25rem;
 }
 .ml-1 {
   margin-left: 0.25rem;
+}
+.mt-4 {
+  margin-top: 1rem;
 }
 .mt-8 {
   margin-top: 2rem;
@@ -748,9 +751,6 @@ select {
 }
 .mt-6 {
   margin-top: 1.5rem;
-}
-.mt-4 {
-  margin-top: 1rem;
 }
 .mt-2 {
   margin-top: 0.5rem;
@@ -1501,6 +1501,9 @@ select {
 .opacity-100 {
   opacity: 1;
 }
+.mix-blend-luminosity {
+  mix-blend-mode: luminosity;
+}
 .shadow {
   --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
@@ -1664,7 +1667,6 @@ select {
 .is-status-update {
     border-width: 1px;
     border-image-source: linear-gradient(266deg, #21c8f6 98%, #637bff -52%);
-    border-image-slice: 1;
     background-image: linear-gradient(to bottom, #ffffff, #ffffff), linear-gradient(266deg, #21c8f6 98%, #637bff -52%);
     background-origin: border-box;
     background-clip: content-box, border-box;

@@ -43,8 +43,8 @@
             />
         @empty
             <div class="mx-auto w-70 mt-12">
-                <div class="text-gray-400 text-center font-bold mt-6">
-                    <img src="{{ asset('img/no-ideas.svg')}}" alt="No Ideas" class="mx-auto" style="mix-blend-mode: luminosity">
+                <div class="text-gray-400 text-center font-bold mt-6 mix-blend-luminosity">
+                    <img src="{{ asset('img/no-ideas.svg')}}" alt="No Ideas" class="mx-auto">
                     No ideas were found...
                 </div>
             </div>

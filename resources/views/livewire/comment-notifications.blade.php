@@ -68,7 +68,7 @@
     @else
         <li class="mx-auto w-44 py-6">
             <div class="text-gray-400 text-center font-bold mt-6">
-                <img src="{{ asset('img/no-ideas.svg')}}" alt="No Ideas" class="mx-auto" style="mix-blend-mode: luminosity">
+                <img src="{{ asset('img/no-ideas.svg')}}" alt="No Ideas" class="mx-auto mix-blend-luminosity">
                 No new notifications...
             </div>
         </li>
